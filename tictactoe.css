@@ -1,13 +1,19 @@
+body{
+  background-color: rgb(34, 31, 31);
+  color: white;
+}
 .jumbotron {
-  margin: 5% auto;
-  margin-left: 43%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
 }
 
 td {
   height:150px;
   width:150px;
   text-align: center;
-  border: 5px solid black;
+  border: 5px solid rgb(207, 183, 183);
   font-size: 100px;
 }
 
